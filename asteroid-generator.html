@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.navbar {
+    padding: 20px 0;
+    background: #161616;
+    color: #ddd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  /* background-color: #111; */
+  color: #5F67FF;
+}
+
+.header {
+    background: #1b1b1b;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cyntho Next';
+    
+
+}
+
+
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+
+}
+
+
+.fa-user-circle:before {
+    content: "\f2bd";
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+.footer {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(135, 135, 135);
+  text-align: center;
+  font-size: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.footer h6 {
+  margin-top: 13px;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: local('Cyntho Next ExtraBold'), local('Cyntho-Next-ExtraBold'),
+        url('fonts/CynthoNext-ExtraBold.woff2') format('woff2'),
+        url('fonts/CynthoNext-ExtraBold.woff') format('woff'),
+        url('fonts/CynthoNext-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.center-block{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-block img {
+  margin-right: 380px;
+}
+.center-block h1 {
+  margin-right: 330px;
+}
+
+body {
+  font-family: 'Cyntho Next';
+  background-color:#1b1b1b;
+  color: white;
+}
+
+.avatar {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+<div class="header">
+
+
+<ul, class="navbar">
+  <a class="active" href="index.html">
+    <img class=icon src="images/free-icon-font-user.png" alt="">
+    <span>About</span>
+  </a>
+  <a class="active" href="Projects.html">
+    <img class=icon src="images/layers.png" alt="">
+    <span>Projects</span>
+  </a>
+  <a class="active" href="#home">
+    <img class=icon src="images/donate.png" alt="">
+    <span>Donate</span>
+    <a class="active" href="asteroid-generator.html">
+      <img class=icon src="images/email.png" alt="">
+        <span>Contanct</span>
+      </a>
+</ul>
+<div class="footer">
+  <h6>Icons made by</h6> <a href="https://www.freepik.com" title="Freepik"> Freepik </a> <h6>from</h6> <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+<a href="https://www.flaticon.com/ru/free-icons/" title="пожертвование иконки">Пожертвование иконки от Vector Stall - Flaticon</a>
+</div>
+</div>
+<body>
+     <h3>This is an asteroid generator that allows you to generate various asteroids. The G key will allow you to generate a new asteroid</h1>
+    <h6>Version: beta 0.2</h6>
+    <div class="app">
+        <iframe src="webapp/asteroid generator/asteroid generator.htm" width="600" height="400"></iframe>
+        <iframe src="timelines/asteroid-generator-timeline.html" width="600" height="450"></iframe>
+      </div>
+</body>
+</html>
